@@ -10,4 +10,6 @@ The project allows you to analyze a database in ".csv" format of stars and class
 
 - At the end, the statistics containing the total number of valid stars and the number of stars for each evolutionary phase with the attached percentage are printed.
 
-- Database from https://www.astronexus.com/hyg
+- Database from [astronexus](https://github.com/astronexus/HYG-Database) : [HYG-Database
+Public](https://github.com/astronexus/HYG-Database), [ATHYG-Database
+Public](https://github.com/astronexus/ATHYG-Database).
