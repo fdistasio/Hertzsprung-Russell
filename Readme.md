@@ -8,7 +8,7 @@ The project allows you to analyze a database in ".csv" format of stars and class
 
 - The consumer threads read data from the shared buffer and as soon as all parsers are finished, they update the global data with the locally processed data.
 
-- The synchronization mechanisms are managed via spinlock, given that the critical zone is very short, to avoid excessive overheads caused by mutexes or condition variables.
+- The synchronization mechanisms are managed via spinlock, given that the critical section is very short, to avoid excessive overheads caused by mutexes or condition variables.
   
 - File memory mapping is handled via the boost library.
 
