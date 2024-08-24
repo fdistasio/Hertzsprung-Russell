@@ -1,6 +1,6 @@
 ## Hertzsprung-Russell Analyzer
 
-The project allows you to analyze a database in ".csv" format of stars and classify them according to parameters in their evolutionary stage, in accordance with the Hertzsprung-Russell diagram.
+The project allows you to analyze a database (in ".csv" format) of stars and classify them in their evolutionary stage, in accordance with the Hertzsprung-Russell diagram.
 
 - To increase performance, a multithreaded scheme was adopted where parsing threads parse the file (memory mapped) and consumer threads process the data. These communicate via a shared buffer according to the producer-consumer scheme.
 
